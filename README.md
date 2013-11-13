@@ -1,4 +1,4 @@
-playstation
+Playstation
 ===========
 
 Chương trình dùng để quản lý các tiệm Playstation. 
