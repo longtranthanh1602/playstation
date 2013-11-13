@@ -1,0 +1,76 @@
+.body
+{
+	font-family: 'Open Sans',"Helvetica Neue", Helvetica, Tahoma, Arial sans-serif;	
+}
+
+/*--CLOCK CSS3 --*/
+  @font-face {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+
+}
+
+#Date {
+    
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 0 0 5px #00c6ff;
+	color: #fff;
+	padding: 17px 0px 10px 0px;
+	
+}
+
+.navbar-nav-clock
+{
+    border:0px;
+}
+#min 
+{
+    padding-right: 20px;
+}
+
+
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}	
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
+
